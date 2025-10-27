@@ -108,7 +108,7 @@ other_important_journals = [
     'Neurocomputing'
 ]
 
-dti_journals = top_tier_journals + top_tier_conferences + other_important_journals
+dti_journals = top_tier_journals + top_tier_conferences + other_important_journals + top_tier
 
 def filter_word(data, words):
     if len(words) == 1:
@@ -142,10 +142,13 @@ def filter_tier(data, tiers, capitalize=True):
 
 
 commands = {'DDI': ('dblp_ddi.json', ['target', 'dti', 'protein', 'food']),
-            'DTI': ('dblp_dti.json', ['ddi', 'drug-drug', 'food'])}
+            'DTI': ('dblp_dti.json', ['ddi', 'drug-drug', 'food']),
+            '3D': ('dblp_3D.json', ['3d'])}
 
 for c_key, command in commands.items():
     file, filter_words = command
+    if file != 'dblp_3D.json':
+        continue
 
     file = Path(file)
     output = file.parent / (file.stem + '.csv')
@@ -177,8 +180,6 @@ for c_key, command in commands.items():
     result.dropna(subset=['title'], inplace=True)
 
     result = result.sort_values(by=['year', 'score'], ascending=False)
-    result = filter_word(result, filter_words)
-    if c_key == 'DTI':
-        result = filter_tier(result, dti_journals, capitalize=False)
+    # result = filter_word(result, filter_words)
+    # result = filter_tier(result, dti_journals, capitalize=False)
     result.to_csv(output, index=False, header=True)
-

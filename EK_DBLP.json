@@ -1,0 +1,613 @@
+{
+"result":{
+"query":":filter:title:drug*|:filter:title:protein)* :filter:title:interaction*|:filter:title:ddi*|:filter:title:dti*|:filter:title:dta*|:filter:title:ppi)* :filter:year:2020*|:filter:year:2021*|:filter:year:2022*|:filter:year:2023*|:filter:year:2024*|:filter:year:2025*|:filter:year:2026)* :filter:title:LLM*|:filter:title:language*|:filter:title:knowledge*|:filter:title:KG)*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"155.59"
+},
+"completions":{
+"@total":"4",
+"@computed":"4",
+"@sent":"4",
+"c":[
+{
+"@sc":"81",
+"@dc":"78",
+"@oc":"81",
+"@id":"60780953",
+"text":":filter:title:knowledge"
+},
+{
+"@sc":"13",
+"@dc":"13",
+"@oc":"13",
+"@id":"60792289",
+"text":":filter:title:language"
+},
+{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"60806659",
+"text":":filter:title:llms"
+},
+{
+"@sc":"1",
+"@dc":"1",
+"@oc":"1",
+"@id":"60806423",
+"text":":filter:title:llm"
+}
+]
+},
+"hits":{
+"@total":"93",
+"@computed":"93",
+"@sent":"93",
+"@first":"0",
+"hit":[{
+"@score":"8",
+"@id":"15865",
+"info":{"authors":{"author":[{"@pid":"364/4551","text":"Azwad Tamir"},{"@pid":"05/9468","text":"Jiann-Shiun Yuan"}]},"title":"KITE-DDI: A Knowledge Graph Integrated Transformer Model for Accurately Predicting Drug-Drug Interaction Events From Drug SMILES and Biomedical Knowledge Graph.","venue":"IEEE Access","volume":"13","pages":"40028-40043","year":"2025","type":"Journal Articles","access":"open","key":"journals/access/TamirY25","doi":"10.1109/ACCESS.2025.3547594","ee":"https://doi.org/10.1109/ACCESS.2025.3547594","url":"https://dblp.org/rec/journals/access/TamirY25"},
+"url":"URL#15865"
+},
+{
+"@score":"8",
+"@id":"964151",
+"info":{"authors":{"author":[{"@pid":"364/4551","text":"Azwad Tamir"},{"@pid":"05/9468","text":"Jiann-Shiun Yuan"}]},"title":"KITE-DDI: A Knowledge graph Integrated Transformer Model for accurately predicting Drug-Drug Interaction Events from Drug SMILES and Biomedical Knowledge Graph.","venue":"CoRR","volume":"abs/2412.05770","year":"2024","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2412-05770","doi":"10.48550/ARXIV.2412.05770","ee":"https://doi.org/10.48550/arXiv.2412.05770","url":"https://dblp.org/rec/journals/corr/abs-2412-05770"},
+"url":"URL#964151"
+},
+{
+"@score":"7",
+"@id":"25478",
+"info":{"authors":{"author":[{"@pid":"86/3904","text":"Changpeng Zhao"},{"@pid":"124/7261","text":"Dongfang Han"},{"@pid":"322/2417","text":"Zicheng Zuo"},{"@pid":"78/7675","text":"Turdi Tohti"}]},"title":"KGDB-DDI:Knowledge graph-based drug background data fusion model for drug-drug interaction prediction.","venue":"Artif. Intell. Medicine","volume":"168","pages":"103225","year":"2025","type":"Journal Articles","access":"closed","key":"journals/artmed/ZhaoHZT25","doi":"10.1016/J.ARTMED.2025.103225","ee":"https://doi.org/10.1016/j.artmed.2025.103225","url":"https://dblp.org/rec/journals/artmed/ZhaoHZT25"},
+"url":"URL#25478"
+},
+{
+"@score":"7",
+"@id":"193000",
+"info":{"authors":{"author":[{"@pid":"61/2757","text":"Ziyan Wang"},{"@pid":"254/0967","text":"Zhankun Xiong"},{"@pid":"19/6809-4","text":"Feng Huang 0004"},{"@pid":"43/2368-8","text":"Wen Zhang 0008"}]},"title":"PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation.","venue":"ACL","pages":"10996-11010","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/acl/WangX0025","ee":"https://aclanthology.org/2025.acl-long.539/","url":"https://dblp.org/rec/conf/acl/WangX0025"},
+"url":"URL#193000"
+},
+{
+"@score":"7",
+"@id":"547734",
+"info":{"authors":{"author":[{"@pid":"391/3000","text":"Yiyang Shi"},{"@pid":"391/3551","text":"Mingxiu He"},{"@pid":"276/3648","text":"Junheng Chen"},{"@pid":"83/9062","text":"Fangfang Han"},{"@pid":"01/2123","text":"Yongming Cai"}]},"title":"SubGE-DDI: A new prediction model for drug-drug interaction established through biomedical texts and drug-pairs knowledge subgraph enhancement.","venue":"PLoS Comput. Biol.","volume":"20","number":"4","pages":"1011989","year":"2024","type":"Journal Articles","access":"open","key":"journals/ploscb/ShiHCHC24","doi":"10.1371/JOURNAL.PCBI.1011989","ee":"https://doi.org/10.1371/journal.pcbi.1011989","url":"https://dblp.org/rec/journals/ploscb/ShiHCHC24"},
+"url":"URL#547734"
+},
+{
+"@score":"6",
+"@id":"167887",
+"info":{"authors":{"author":[{"@pid":"221/8414","text":"Xiaosa Zhao"},{"@pid":"335/4805","text":"Qixian Wang"},{"@pid":"147/0497-14","text":"Ye Zhang 0014"},{"@pid":"225/6120","text":"Chenglong He"},{"@pid":"13/3656","text":"Minghao Yin"},{"@pid":"02/8134-4","text":"Xiaowei Zhao 0004"}]},"title":"CBKG-DTI: Multi-Level Knowledge Distillation and Biomedical Knowledge Graph for Drug-Target Interaction Prediction.","venue":"IEEE J. Biomed. Health Informatics","volume":"29","number":"3","pages":"2284-2296","year":"2025","type":"Journal Articles","access":"closed","key":"journals/titb/ZhaoWZHYZ25","doi":"10.1109/JBHI.2024.3500027","ee":"https://doi.org/10.1109/JBHI.2024.3500027","url":"https://dblp.org/rec/journals/titb/ZhaoWZHYZ25"},
+"url":"URL#167887"
+},
+{
+"@score":"6",
+"@id":"407102",
+"info":{"authors":{"author":[{"@pid":"389/9986","text":"Iqra Naseer Kundi"},{"@pid":"68/5123","text":"Shahzad Amin Sheikh"},{"@pid":"137/4803","text":"Fahad Mumtaz Malik"},{"@pid":"369/1577","text":"Kamran Aziz Bhatti"}]},"title":"DDI-KGAT: A Graph Attention Network on Biomedical Knowledge Graph for the Prediction of Drug-Drug Interactions.","venue":"IEEE Access","volume":"12","pages":"162028-162039","year":"2024","type":"Journal Articles","access":"open","key":"journals/access/KundiSMB24","doi":"10.1109/ACCESS.2024.3483993","ee":"https://doi.org/10.1109/ACCESS.2024.3483993","url":"https://dblp.org/rec/journals/access/KundiSMB24"},
+"url":"URL#407102"
+},
+{
+"@score":"6",
+"@id":"507996",
+"info":{"authors":{"author":[{"@pid":"34/2997-30","text":"Yu Li 0030"},{"@pid":"35/8343","text":"Zhu-Hong You"},{"@pid":"65/782","text":"Yang Yuan"},{"@pid":"151/1355-1","text":"Cheng-Gang Mi 0001"},{"@pid":"15/8391","text":"Yu-An Huang"},{"@pid":"245/8184","text":"Hai-Cheng Yi"},{"@pid":"379/3070","text":"Lin-Xuan Hou"}]},"title":"Integrated Knowledge Graph and Drug Molecular Graph Fusion via Adversarial Networks for Drug-Drug Interaction Prediction.","venue":"J. Chem. Inf. Model.","volume":"64","number":"21","pages":"8361-8372","year":"2024","type":"Journal Articles","access":"closed","key":"journals/jcisd/LiYYMHYH24","doi":"10.1021/ACS.JCIM.4C01647","ee":"https://doi.org/10.1021/acs.jcim.4c01647","url":"https://dblp.org/rec/journals/jcisd/LiYYMHYH24"},
+"url":"URL#507996"
+},
+{
+"@score":"6",
+"@id":"1004448",
+"info":{"authors":{"author":[{"@pid":"358/8084","text":"Jeonghyeon Gu"},{"@pid":"358/8445","text":"Dongmin Bang"},{"@pid":"358/8226","text":"Jungseob Yi"},{"@pid":"192/9195","text":"Sangseon Lee"},{"@pid":"123/5841","text":"Dong Kyu Kim"},{"@pid":"53/1114","text":"Sun Kim"}]},"title":"A model-agnostic framework to enhance knowledge graph-based drug combination prediction with drug-drug interaction data and supervised contrastive learning.","venue":"Briefings Bioinform.","volume":"24","number":"5","year":"2023","type":"Journal Articles","access":"closed","key":"journals/bib/GuBYLKK23","doi":"10.1093/BIB/BBAD285","ee":"https://doi.org/10.1093/bib/bbad285","url":"https://dblp.org/rec/journals/bib/GuBYLKK23"},
+"url":"URL#1004448"
+},
+{
+"@score":"6",
+"@id":"1526403",
+"info":{"authors":{"author":[{"@pid":"92/3232","text":"Shudong Wang"},{"@pid":"283/3776","text":"Zhenzhen Du"},{"@pid":"99/10002","text":"Mao Ding"},{"@pid":"55/5282","text":"Alfonso Rodríguez-Patón"},{"@pid":"30/982-1","text":"Tao Song 0001"}]},"title":"KG-DTI: a knowledge graph based deep learning method for drug-target interaction predictions and Alzheimer&apos;s disease drug repositions.","venue":"Appl. Intell.","volume":"52","number":"1","pages":"846-857","year":"2022","type":"Journal Articles","access":"closed","key":"journals/apin/WangDDRS22","doi":"10.1007/S10489-021-02454-8","ee":"https://doi.org/10.1007/s10489-021-02454-8","url":"https://dblp.org/rec/journals/apin/WangDDRS22"},
+"url":"URL#1526403"
+},
+{
+"@score":"6",
+"@id":"1737402",
+"info":{"authors":{"author":[{"@pid":"79/4698","text":"Hongbin Lu"},{"@pid":"174/0460","text":"Dingxin Song"},{"@pid":"38/5267","text":"Yu Zhu"},{"@pid":"55/1299","text":"Lishuang Li"}]},"title":"Drug-Drug Interaction Extraction Using Drug Knowledge Graph.","venue":"BIBM","pages":"3846-3848","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/bibm/LuSZL22","doi":"10.1109/BIBM55620.2022.9995058","ee":"https://doi.org/10.1109/BIBM55620.2022.9995058","url":"https://dblp.org/rec/conf/bibm/LuSZL22"},
+"url":"URL#1737402"
+},
+{
+"@score":"6",
+"@id":"2021523",
+"info":{"authors":{"author":[{"@pid":"309/3721","text":"Tilman Hinnerichs"},{"@pid":"38/3629","text":"Robert Hoehndorf"}]},"title":"DTI-Voodoo: machine learning over interaction networks and ontology-based background knowledge predicts drug-target interactions.","venue":"Bioinform.","volume":"37","number":"24","pages":"4835-4843","year":"2021","type":"Journal Articles","access":"open","key":"journals/bioinformatics/HinnerichsH21","doi":"10.1093/BIOINFORMATICS/BTAB548","ee":"https://doi.org/10.1093/bioinformatics/btab548","url":"https://dblp.org/rec/journals/bioinformatics/HinnerichsH21"},
+"url":"URL#2021523"
+},
+{
+"@score":"6",
+"@id":"2195978",
+"info":{"authors":{"author":{"@pid":"255/8493","text":"Ishani Mondal"}},"title":"BERTKG-DDI: Towards Incorporating Entity-specific Knowledge Graph Information in Predicting Drug-Drug Interactions.","venue":"SDU@AAAI","year":"2021","type":"Conference and Workshop Papers","access":"open","key":"conf/aaai/Mondal21","ee":"https://ceur-ws.org/Vol-2831/paper5.pdf","url":"https://dblp.org/rec/conf/aaai/Mondal21"},
+"url":"URL#2195978"
+},
+{
+"@score":"6",
+"@id":"2848939",
+"info":{"authors":{"author":[{"@pid":"265/6487","text":"Alun Stokes"},{"@pid":"265/6598","text":"William Hum"},{"@pid":"265/6446","text":"Jonathan Zaslavsky"}]},"title":"A Minimal-Input Multilayer Perceptron for Predicting Drug-Drug Interactions Without Knowledge of Drug Structure.","venue":"CoRR","volume":"abs/2005.10644","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2005-10644","ee":"https://arxiv.org/abs/2005.10644","url":"https://dblp.org/rec/journals/corr/abs-2005-10644"},
+"url":"URL#2848939"
+},
+{
+"@score":"5",
+"@id":"33948",
+"info":{"authors":{"author":[{"@pid":"402/5269","text":"Mir Mansoor Ahmad"},{"@pid":"402/5410","text":"Zuraini Binti Ali Shah"},{"@pid":"201/6083","text":"Hui Wen Nies"}]},"title":"A systematic review of molecular structures, knowledge graphs, and cold-start scenario in drug-drug interaction prediction.","venue":"Comput. Biol. Medicine","volume":"190","pages":"110122","year":"2025","type":"Journal Articles","access":"closed","key":"journals/cbm/AhmadSN25","doi":"10.1016/J.COMPBIOMED.2025.110122","ee":"https://doi.org/10.1016/j.compbiomed.2025.110122","url":"https://dblp.org/rec/journals/cbm/AhmadSN25"},
+"url":"URL#33948"
+},
+{
+"@score":"5",
+"@id":"34415",
+"info":{"authors":{"author":[{"@pid":"400/0549","text":"Ryong Heo"},{"@pid":"377/2370","text":"Dahyeon Lee"},{"@pid":"336/8577","text":"Byung Ju Kim"},{"@pid":"84/4431","text":"Sangmin Seo"},{"@pid":"45/2752","text":"Sanghyun Park"},{"@pid":"90/1532","text":"Chihyun Park"}]},"title":"KNU-DTI: KNowledge United Drug-Target Interaction prediction.","venue":"Comput. Biol. Medicine","volume":"189","pages":"109927","year":"2025","type":"Journal Articles","access":"open","key":"journals/cbm/HeoLKSPP25","doi":"10.1016/J.COMPBIOMED.2025.109927","ee":"https://doi.org/10.1016/j.compbiomed.2025.109927","url":"https://dblp.org/rec/journals/cbm/HeoLKSPP25"},
+"url":"URL#34415"
+},
+{
+"@score":"5",
+"@id":"60533",
+"info":{"authors":{"author":[{"@pid":"44/1990-1","text":"José Machado 0001"},{"@pid":"82/9170","text":"Carla Rodrigues"},{"@pid":"272/3233","text":"Regina Sousa"},{"@pid":"42/8235","text":"Luís Mendes Gomes"}]},"title":"Drug-drug interaction extraction-based system: An natural language processing approach.","venue":"Expert Syst. J. Knowl. Eng.","volume":"42","number":"1","year":"2025","type":"Journal Articles","access":"closed","key":"journals/es/MachadoRSG25","doi":"10.1111/EXSY.13303","ee":"https://doi.org/10.1111/exsy.13303","url":"https://dblp.org/rec/journals/es/MachadoRSG25"},
+"url":"URL#60533"
+},
+{
+"@score":"5",
+"@id":"62369",
+"info":{"authors":{"author":[{"@pid":"260/8615","text":"Haotian Hu"},{"@pid":"356/4763","text":"Alex Jie Yang"},{"@pid":"136/9500","text":"Sanhong Deng"},{"@pid":"50/2908","text":"Dongbo Wang"},{"@pid":"99/5721-1","text":"Min Song 0001"}]},"title":"CoTEL-D3X: A chain-of-thought enhanced large language model for drug-drug interaction triplet extraction.","venue":"Expert Syst. Appl.","volume":"273","pages":"126953","year":"2025","type":"Journal Articles","access":"closed","key":"journals/eswa/HuYDWS25","doi":"10.1016/J.ESWA.2025.126953","ee":"https://doi.org/10.1016/j.eswa.2025.126953","url":"https://dblp.org/rec/journals/eswa/HuYDWS25"},
+"url":"URL#62369"
+},
+{
+"@score":"5",
+"@id":"74329",
+"info":{"authors":{"author":[{"@pid":"325/5870","text":"Xiaomin Shen"},{"@pid":"91/296","text":"Jianliang Gao"},{"@pid":"270/6737","text":"Tengfei Lyu"},{"@pid":"187/9898","text":"Jiamin Chen"},{"@pid":"318/2022","text":"Jiarun Zhang"},{"@pid":"85/93-1","text":"Jing He 0001"},{"@pid":"l/ZhaoLi-7","text":"Zhao Li 0007"},{"@pid":"82/2790","text":"Wei Yu"}]},"title":"Enhancing drug-drug interaction event prediction from knowledge graphs by multimodal deep neural networks.","venue":"Int. J. Data Min. Bioinform.","volume":"29","number":"3","pages":"338-361","year":"2025","type":"Journal Articles","access":"closed","key":"journals/ijdmb/ShenGLCZH0Y25","doi":"10.1504/IJDMB.2025.147056","ee":"https://doi.org/10.1504/IJDMB.2025.147056","url":"https://dblp.org/rec/journals/ijdmb/ShenGLCZH0Y25"},
+"url":"URL#74329"
+},
+{
+"@score":"5",
+"@id":"167689",
+"info":{"authors":{"author":[{"@pid":"276/8163-1","text":"Xiao-Rui Su 0001"},{"@pid":"276/7969","text":"Bowei Zhao"},{"@pid":"90/5687","text":"Guodong Li"},{"@pid":"z/JunZhang3","text":"Jun Zhang 0003"},{"@pid":"190/4803-1","text":"Pengwei Hu 0001"},{"@pid":"35/8343","text":"Zhuhong You"},{"@pid":"163/5983","text":"Lun Hu"}]},"title":"Knowledge Graph Neural Network With Spatial-Aware Capsule for Drug-Drug Interaction Prediction.","venue":"IEEE J. Biomed. Health Informatics","volume":"29","number":"3","pages":"1771-1781","year":"2025","type":"Journal Articles","access":"closed","key":"journals/titb/SuZLZHYH25","doi":"10.1109/JBHI.2024.3419015","ee":"https://doi.org/10.1109/JBHI.2024.3419015","url":"https://dblp.org/rec/journals/titb/SuZLZHYH25"},
+"url":"URL#167689"
+},
+{
+"@score":"5",
+"@id":"189289",
+"info":{"authors":{"author":[{"@pid":"246/3050","text":"Zhaoyue Sun"},{"@pid":"155/6074-2","text":"Jiazheng Li 0002"},{"@pid":"180/3707","text":"Gabriele Pergola"},{"@pid":"75/5430","text":"Yulan He 0001"}]},"title":"ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language.","venue":"AAAI","pages":"25228-25236","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/aaai/Sun0P025","doi":"10.1609/AAAI.V39I24.34709","ee":"https://doi.org/10.1609/aaai.v39i24.34709","url":"https://dblp.org/rec/conf/aaai/Sun0P025"},
+"url":"URL#189289"
+},
+{
+"@score":"5",
+"@id":"201191",
+"info":{"authors":{"author":[{"@pid":"411/2142","text":"Marios Vottas"},{"@pid":"06/8385","text":"Fotis Aisopos"},{"@pid":"179/6511","text":"Konstantinos Bougiatiotis"},{"@pid":"32/6354","text":"Anastasia Krithara"}]},"title":"Predicting Multi-Type Drug-Drug Interactions Using a Disease-Specific Knowledge Graph.","venue":"CBMS","pages":"757-762","year":"2025","type":"Conference and Workshop Papers","access":"closed","key":"conf/cbms/VottasABK25","doi":"10.1109/CBMS65348.2025.00157","ee":"https://doi.org/10.1109/CBMS65348.2025.00157","url":"https://dblp.org/rec/conf/cbms/VottasABK25"},
+"url":"URL#201191"
+},
+{
+"@score":"5",
+"@id":"294908",
+"info":{"authors":{"author":[{"@pid":"155/7295","text":"Gabriele De Vito"},{"@pid":"68/6536","text":"Filomena Ferrucci"},{"@pid":"371/4991","text":"Athanasios Angelakis"}]},"title":"LLMs for Drug-Drug Interaction Prediction: A Comprehensive Comparison.","venue":"CoRR","volume":"abs/2502.06890","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2502-06890","doi":"10.48550/ARXIV.2502.06890","ee":"https://doi.org/10.48550/arXiv.2502.06890","url":"https://dblp.org/rec/journals/corr/abs-2502-06890"},
+"url":"URL#294908"
+},
+{
+"@score":"5",
+"@id":"340436",
+"info":{"authors":{"author":[{"@pid":"98/2683","text":"Guangyi Liu"},{"@pid":"220/3961","text":"Yongqi Zhang"},{"@pid":"351/3541","text":"Xunyuan Liu"},{"@pid":"158/1014","text":"Quanming Yao"}]},"title":"Case-Based Reasoning Enhances the Predictive Power of LLMs in Drug-Drug Interaction.","venue":"CoRR","volume":"abs/2505.23034","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2505-23034","doi":"10.48550/ARXIV.2505.23034","ee":"https://doi.org/10.48550/arXiv.2505.23034","url":"https://dblp.org/rec/journals/corr/abs-2505-23034"},
+"url":"URL#340436"
+},
+{
+"@score":"5",
+"@id":"430990",
+"info":{"authors":{"author":[{"@pid":"29/5999-5","text":"Peng Gao 0005"},{"@pid":"10/2674","text":"Feng Gao"},{"@pid":"00/5287","text":"Jian-Cheng Ni"},{"@pid":"02/5889","text":"Yu Wang"},{"@pid":"52/3194-36","text":"Fei Wang 0036"},{"@pid":"211/6562","text":"Qiquan Zhang"}]},"title":"Medical knowledge graph question answering for drug-drug interaction prediction based on multi-hop machine reading comprehension.","venue":"CAAI Trans. Intell. Technol.","volume":"9","number":"5","pages":"1217-1228","year":"2024","type":"Journal Articles","access":"open","key":"journals/caaitrit/GaoGNWWZ24","doi":"10.1049/CIT2.12332","ee":"https://doi.org/10.1049/cit2.12332","url":"https://dblp.org/rec/journals/caaitrit/GaoGNWWZ24"},
+"url":"URL#430990"
+},
+{
+"@score":"5",
+"@id":"434288",
+"info":{"authors":{"author":[{"@pid":"05/8743-1","text":"Siqi Chen 0001"},{"@pid":"370/4861","text":"Ivan Semenov"},{"@pid":"287/7161","text":"Fengyun Zhang"},{"@pid":"48/450","text":"Yang Yang"},{"@pid":"60/10617","text":"Jie Geng"},{"@pid":"370/4503","text":"Xuequan Feng"},{"@pid":"52/4761","text":"Qinghua Meng"},{"@pid":"42/3964","text":"Kaiyou Lei"}]},"title":"An effective framework for predicting drug-drug interactions based on molecular substructures and knowledge graph neural network.","venue":"Comput. Biol. Medicine","volume":"169","pages":"107900","year":"2024","type":"Journal Articles","access":"closed","key":"journals/cbm/ChenSZYGFML24","doi":"10.1016/J.COMPBIOMED.2023.107900","ee":"https://doi.org/10.1016/j.compbiomed.2023.107900","url":"https://dblp.org/rec/journals/cbm/ChenSZYGFML24"},
+"url":"URL#434288"
+},
+{
+"@score":"5",
+"@id":"486416",
+"info":{"authors":{"author":[{"@pid":"34/2997-30","text":"Yu Li 0030"},{"@pid":"35/8343","text":"Zhu-Hong You"},{"@pid":"379/2031","text":"Shu-Min Wang"},{"@pid":"151/1355-1","text":"Cheng-Gang Mi 0001"},{"@pid":"258/6283","text":"Mei-Neng Wang"},{"@pid":"15/8391","text":"Yu-An Huang"},{"@pid":"245/8184","text":"Hai-Cheng Yi"}]},"title":"Attention-Based Learning for Predicting Drug-Drug Interactions in Knowledge Graph Embedding Based on Multisource Fusion Information.","venue":"Int. J. Intell. Syst.","volume":"2024","pages":"1-11","year":"2024","type":"Journal Articles","access":"open","key":"journals/ijis/LiYWMWHY24","doi":"10.1155/2024/5155997","ee":"https://doi.org/10.1155/2024/5155997","url":"https://dblp.org/rec/journals/ijis/LiYWMWHY24"},
+"url":"URL#486416"
+},
+{
+"@score":"5",
+"@id":"507455",
+"info":{"authors":{"author":[{"@pid":"10/7030","text":"Jonghyun Lee"},{"@pid":"369/5706","text":"Dae Won Jun"},{"@pid":"369/4356","text":"Ildae Song"},{"@pid":"133/7225","text":"Yun Kim"}]},"title":"DLM-DTI: a dual language model for the prediction of drug-target interaction with hint-based learning.","venue":"J. Cheminformatics","volume":"16","number":"1","pages":"14","year":"2024","type":"Journal Articles","access":"open","key":"journals/jcheminf/LeeJSK24","doi":"10.1186/S13321-024-00808-1","ee":"https://doi.org/10.1186/s13321-024-00808-1","url":"https://dblp.org/rec/journals/jcheminf/LeeJSK24"},
+"url":"URL#507455"
+},
+{
+"@score":"5",
+"@id":"579862",
+"info":{"authors":{"author":[{"@pid":"379/9725","text":"Lizhen Jiang"},{"@pid":"331/0675","text":"Sensen Zhang"}]},"title":"Enhancing Knowledge Graph Embedding with Hierarchical Self-Attention and Graph Neural Network Techniques for Drug-Drug Interaction Prediction in Virtual Reality Environments.","venue":"Symmetry","volume":"16","number":"5","pages":"587","year":"2024","type":"Journal Articles","access":"open","key":"journals/symmetry/JiangZ24","doi":"10.3390/SYM16050587","ee":"https://doi.org/10.3390/sym16050587","url":"https://dblp.org/rec/journals/symmetry/JiangZ24"},
+"url":"URL#579862"
+},
+{
+"@score":"5",
+"@id":"588772",
+"info":{"authors":{"author":[{"@pid":"88/3623","text":"Xiaoli Lin"},{"@pid":"193/6729","text":"Zhuang Yin"},{"@pid":"64/2433-2","text":"Xiaolong Zhang 0002"},{"@pid":"95/6046-3","text":"Jing Hu 0003"}]},"title":"KGRLFF: Detecting Drug-Drug Interactions Based on Knowledge Graph Representation Learning and Feature Fusion.","venue":"IEEE ACM Trans. Comput. Biol. Bioinform.","volume":"21","number":"6","pages":"2035-2049","year":"2024","type":"Journal Articles","access":"open","key":"journals/tcbb/LinYZH24","doi":"10.1109/TCBB.2024.3434992","ee":"https://doi.org/10.1109/TCBB.2024.3434992","url":"https://dblp.org/rec/journals/tcbb/LinYZH24"},
+"url":"URL#588772"
+},
+{
+"@score":"5",
+"@id":"588873",
+"info":{"authors":{"author":[{"@pid":"72/8777","text":"Jian Zhong"},{"@pid":"219/4162","text":"Haochen Zhao"},{"@pid":"258/4912","text":"Qichang Zhao"},{"@pid":"75/2669-1","text":"Jianxin Wang 0001"}]},"title":"A Knowledge Graph-Based Method for Drug-Drug Interaction Prediction With Contrastive Learning.","venue":"IEEE ACM Trans. Comput. Biol. Bioinform.","volume":"21","number":"6","pages":"2485-2495","year":"2024","type":"Journal Articles","access":"closed","key":"journals/tcbb/ZhongZZW24","doi":"10.1109/TCBB.2024.3477410","ee":"https://doi.org/10.1109/TCBB.2024.3477410","url":"https://dblp.org/rec/journals/tcbb/ZhongZZW24"},
+"url":"URL#588873"
+},
+{
+"@score":"5",
+"@id":"635893",
+"info":{"authors":{"author":[{"@pid":"52/328-56","text":"Di Wu 0056"},{"@pid":"31/4985","text":"Wu Sun"},{"@pid":"65/425-7","text":"Yi He 0007"},{"@pid":"70/2509-3","text":"Zhong Chen 0003"},{"@pid":"53/5106-1","text":"Xin Luo 0001"}]},"title":"MKG-FENN: A Multimodal Knowledge Graph Fused End-to-End Neural Network for Accurate Drug-Drug Interaction Prediction.","venue":"AAAI","pages":"10216-10224","year":"2024","type":"Conference and Workshop Papers","access":"open","key":"conf/aaai/WuSHC024","doi":"10.1609/AAAI.V38I9.28887","ee":"https://doi.org/10.1609/aaai.v38i9.28887","url":"https://dblp.org/rec/conf/aaai/WuSHC024"},
+"url":"URL#635893"
+},
+{
+"@score":"5",
+"@id":"650349",
+"info":{"authors":{"author":[{"@pid":"384/6094","text":"Basma Mohammed J. Alshehri"},{"@pid":"11/918","text":"Naoufel Kraiem"},{"@pid":"267/0301","text":"Houneida Sakly"},{"@pid":"302/4879","text":"Nada Alasbali"}]},"title":"Enhancing Medication Safety with Large Language Models: Advanced Detection and Prediction of Drug-Drug Interactions.","venue":"ATSIP","pages":"547-552","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/atsip/AlshehriKSA24","doi":"10.1109/ATSIP62566.2024.10638993","ee":"https://doi.org/10.1109/ATSIP62566.2024.10638993","url":"https://dblp.org/rec/conf/atsip/AlshehriKSA24"},
+"url":"URL#650349"
+},
+{
+"@score":"5",
+"@id":"651223",
+"info":{"authors":{"author":[{"@pid":"34/3381","text":"Pengfei Liu"},{"@pid":"35/5170-2","text":"Jun Tao 0002"},{"@pid":"21/8692","text":"Zhixiang Ren"}]},"title":"Dynamic Knowledge-Prior for Few-Shot Drug-Drug Interaction Events Prediction.","venue":"BCB","pages":"82:1","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/bcb/LiuTR24","doi":"10.1145/3698587.3701431","ee":"https://doi.org/10.1145/3698587.3701431","url":"https://dblp.org/rec/conf/bcb/LiuTR24"},
+"url":"URL#651223"
+},
+{
+"@score":"5",
+"@id":"701976",
+"info":{"authors":{"author":[{"@pid":"399/5955","text":"Raghad J. AbuNasser"},{"@pid":"19/1952","text":"Mostafa Z. Ali"},{"@pid":"53/4234","text":"Yaser Jararweh"},{"@pid":"162/4743","text":"Mustafa Daraghmeh"},{"@pid":"355/4231","text":"Talal Z. Ali"}]},"title":"Large Language Models in Drug Discovery: A Comprehensive Analysis of Drug-Target Interaction Prediction.","venue":"FLLM","pages":"417-431","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/fllm/AbuNasserAJDA24","doi":"10.1109/FLLM63129.2024.10852448","ee":"https://doi.org/10.1109/FLLM63129.2024.10852448","url":"https://dblp.org/rec/conf/fllm/AbuNasserAJDA24"},
+"url":"URL#701976"
+},
+{
+"@score":"5",
+"@id":"719625",
+"info":{"authors":{"author":[{"@pid":"301/5972","text":"Leila Baghaarabani"},{"@pid":"391/1853","text":"Parvin Razaghi"},{"@pid":"391/1847","text":"Mennatolla Magdy Mostafa"},{"@pid":"210/8866","text":"Ahmad Albaqsami"},{"@pid":"391/1851","text":"Masoud Al Rawahi"}]},"title":"ProtContext-DTI: Protein Contextual Representation Using Masked Language Modeling in Drug Target Interaction Prediction.","venue":"ICBBT","pages":"115-121","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icbbt/BaghaarabaniRMA24","doi":"10.1145/3674658.3674678","ee":"https://doi.org/10.1145/3674658.3674678","url":"https://dblp.org/rec/conf/icbbt/BaghaarabaniRMA24"},
+"url":"URL#719625"
+},
+{
+"@score":"5",
+"@id":"732972",
+"info":{"authors":{"author":[{"@pid":"97/30","text":"Xia Li"},{"@pid":"331/0675","text":"Sensen Zhang"},{"@pid":"51/3710","text":"Yang Liu"},{"@pid":"84/2672","text":"Peng Bi"},{"@pid":"382/5059","text":"Tiangui Hu"}]},"title":"Enhancing Drug-Drug Interaction Predictions in Biomedical Knowledge Graphs Through Integration of Householder Projections and Capsule Network Techniques.","venue":"ICIC","pages":"229-240","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/LiZLBH24","doi":"10.1007/978-981-97-5689-6_20","ee":"https://doi.org/10.1007/978-981-97-5689-6_20","url":"https://dblp.org/rec/conf/icic/LiZLBH24"},
+"url":"URL#732972"
+},
+{
+"@score":"5",
+"@id":"733415",
+"info":{"authors":{"author":[{"@pid":"382/5165","text":"Wanjie Yu"},{"@pid":"75/6588","text":"Haitao Yu"}]},"title":"DeepMHAttGRU-DTI: Prediction of Drug-Target Interactions Based on Knowledge Graph Random Walk Embeddings and GRU Neural Network.","venue":"ICIC","pages":"96-107","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/YuY24","doi":"10.1007/978-981-97-5692-6_9","ee":"https://doi.org/10.1007/978-981-97-5692-6_9","url":"https://dblp.org/rec/conf/icic/YuY24"},
+"url":"URL#733415"
+},
+{
+"@score":"5",
+"@id":"742653",
+"info":{"authors":{"author":[{"@pid":"15/5923-17","text":"Chao Liu 0017"},{"@pid":"02/4027","text":"Xizhao Wang"},{"@pid":"61/3234","text":"Qiang Liu"}]},"title":"Enhancing Drug-Drug Interaction Prediction by Knowledge Graph Embedding.","venue":"ICMLC","pages":"251-257","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icmlc/LiuWL24","doi":"10.1109/ICMLC63072.2024.10935249","ee":"https://doi.org/10.1109/ICMLC63072.2024.10935249","url":"https://dblp.org/rec/conf/icmlc/LiuWL24"},
+"url":"URL#742653"
+},
+{
+"@score":"5",
+"@id":"761207",
+"info":{"authors":{"author":[{"@pid":"121/6146","text":"Shun Liu"},{"@pid":"73/4983","text":"Gaoqi He"},{"@pid":"55/957-1","text":"Kai Zhang 0001"},{"@pid":"67/5566-3","text":"Honglin Li 0003"}]},"title":"Knowledge Graph Information Bottleneck for Drug-Drug Interaction Prediction.","venue":"IJCNN","pages":"1-8","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/ijcnn/LiuHZL24","doi":"10.1109/IJCNN60899.2024.10651537","ee":"https://doi.org/10.1109/IJCNN60899.2024.10651537","url":"https://dblp.org/rec/conf/ijcnn/LiuHZL24"},
+"url":"URL#761207"
+},
+{
+"@score":"5",
+"@id":"769438",
+"info":{"authors":{"author":[{"@pid":"144/2239","text":"Xuetao Wang"},{"@pid":"258/4912","text":"Qichang Zhao"},{"@pid":"75/2669-1","text":"Jianxin Wang 0001"}]},"title":"FedKD-DTI: Drug-Target Interaction Prediction Based on Federated Knowledge Distillation.","venue":"ISBRA","pages":"95-106","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/isbra/WangZW24","doi":"10.1007/978-981-97-5131-0_9","ee":"https://doi.org/10.1007/978-981-97-5131-0_9","url":"https://dblp.org/rec/conf/isbra/WangZW24"},
+"url":"URL#769438"
+},
+{
+"@score":"5",
+"@id":"930316",
+"info":{"authors":{"author":[{"@pid":"246/3050","text":"Zhaoyue Sun"},{"@pid":"155/6074-2","text":"Jiazheng Li 0002"},{"@pid":"180/3707","text":"Gabriele Pergola"},{"@pid":"75/5430","text":"Yulan He 0001"}]},"title":"ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language.","venue":"CoRR","volume":"abs/2409.05592","year":"2024","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2409-05592","doi":"10.48550/ARXIV.2409.05592","ee":"https://doi.org/10.48550/arXiv.2409.05592","url":"https://dblp.org/rec/journals/corr/abs-2409-05592"},
+"url":"URL#930316"
+},
+{
+"@score":"5",
+"@id":"1005289",
+"info":{"authors":{"author":[{"@pid":"204/7240","text":"Masaki Asada"},{"@pid":"29/456","text":"Makoto Miwa"},{"@pid":"93/4187","text":"Yutaka Sasaki"}]},"title":"Integrating heterogeneous knowledge graphs into drug-drug interaction extraction from the literature.","venue":"Bioinform.","volume":"39","number":"1","year":"2023","type":"Journal Articles","access":"closed","key":"journals/bioinformatics/AsadaMS23","doi":"10.1093/BIOINFORMATICS/BTAC754","ee":"https://doi.org/10.1093/bioinformatics/btac754","url":"https://dblp.org/rec/journals/bioinformatics/AsadaMS23"},
+"url":"URL#1005289"
+},
+{
+"@score":"5",
+"@id":"1006880",
+"info":{"authors":{"author":[{"@pid":"267/8527","text":"Joel Zirkle"},{"@pid":"206/8762","text":"Xiaomei Han"},{"@pid":"141/5139","text":"Rebecca Racz"},{"@pid":"359/8407","text":"Mohammadreza Samieegohar"},{"@pid":"209/2157","text":"Anik Chaturbedi"},{"@pid":"295/2378","text":"John Mann"},{"@pid":"359/8076","text":"Shilpa Chakravartula"},{"@pid":"02/1556","text":"Zhihua Li"}]},"title":"Deep learning-enabled natural language processing to identify directional pharmacokinetic drug-drug interactions.","venue":"BMC Bioinform.","volume":"24","number":"1","pages":"413","year":"2023","type":"Journal Articles","access":"open","key":"journals/bmcbi/ZirkleHRSCMCL23","doi":"10.1186/S12859-023-05520-9","ee":"https://doi.org/10.1186/s12859-023-05520-9","url":"https://dblp.org/rec/journals/bmcbi/ZirkleHRSCMCL23"},
+"url":"URL#1006880"
+},
+{
+"@score":"5",
+"@id":"1176909",
+"info":{"authors":{"author":[{"@pid":"276/8163-1","text":"Xiaorui Su 0001"},{"@pid":"35/8343","text":"Zhuhong You"},{"@pid":"h/DeShuangHuang","text":"Deshuang Huang"},{"@pid":"181/2817-121","text":"Lei Wang 0121"},{"@pid":"01/3115","text":"Leon Wong"},{"@pid":"227/6493","text":"Boya Ji"},{"@pid":"276/7969","text":"Bowei Zhao"}]},"title":"Biomedical Knowledge Graph Embedding With Capsule Network for Multi-Label Drug-Drug Interaction Prediction.","venue":"IEEE Trans. Knowl. Data Eng.","volume":"35","number":"6","pages":"5640-5651","year":"2023","type":"Journal Articles","access":"closed","key":"journals/tkde/SuYHWWJZ23","doi":"10.1109/TKDE.2022.3154792","ee":"https://doi.org/10.1109/TKDE.2022.3154792","url":"https://dblp.org/rec/journals/tkde/SuYHWWJZ23"},
+"url":"URL#1176909"
+},
+{
+"@score":"5",
+"@id":"1211894",
+"info":{"authors":{"author":[{"@pid":"269/5695","text":"Yanlong Qiu"},{"@pid":"145/2904-1","text":"Siqi Wang 0001"},{"@pid":"13/1520-20","text":"Xi Yang 0020"},{"@pid":"368/1953","text":"Xinyuan Qiu"},{"@pid":"06/7238","text":"Chengkun Wu"},{"@pid":"146/5080-1","text":"Yingbo Cui 0001"},{"@pid":"92/2942","text":"Canqun Yang"}]},"title":"DrugProtKGE: Weakly Supervised Knowledge Graph Embedding for Highly-Effective Drug-Protein Interaction Representation.","venue":"BIBM","pages":"1386-1393","year":"2023","type":"Conference and Workshop Papers","access":"closed","key":"conf/bibm/QiuWYQWCY23","doi":"10.1109/BIBM58861.2023.10385638","ee":"https://doi.org/10.1109/BIBM58861.2023.10385638","url":"https://dblp.org/rec/conf/bibm/QiuWYQWCY23"},
+"url":"URL#1211894"
+},
+{
+"@score":"5",
+"@id":"1303892",
+"info":{"authors":{"author":[{"@pid":"33/10340","text":"Nana Wang"},{"@pid":"86/3163-3","text":"Qian Gao 0003"},{"@pid":"23/5241","text":"Jun Fan"}]},"title":"KSHFS: Research on Drug-Drug Interaction Prediction Based on Knowledge Subgraph and High-Order Feature-Aware Structure.","venue":"ICONIP","pages":"493-506","year":"2023","type":"Conference and Workshop Papers","access":"closed","key":"conf/iconip/Wang0F23","doi":"10.1007/978-981-99-8141-0_37","ee":"https://doi.org/10.1007/978-981-99-8141-0_37","url":"https://dblp.org/rec/conf/iconip/Wang0F23"},
+"url":"URL#1303892"
+},
+{
+"@score":"5",
+"@id":"1456917",
+"info":{"authors":{"author":[{"@pid":"260/8035","text":"Lizzy Farrugia"},{"@pid":"354/7119","text":"Lilian M. Azzopardi"},{"@pid":"120/6701","text":"Jeremy Debattista"},{"@pid":"06/2421","text":"Charlie Abela"}]},"title":"Predicting Drug-Drug Interactions Using Knowledge Graphs.","venue":"CoRR","volume":"abs/2308.04172","year":"2023","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2308-04172","doi":"10.48550/ARXIV.2308.04172","ee":"https://doi.org/10.48550/arXiv.2308.04172","url":"https://dblp.org/rec/journals/corr/abs-2308-04172"},
+"url":"URL#1456917"
+},
+{
+"@score":"5",
+"@id":"1488766",
+"info":{"authors":{"author":[{"@pid":"147/1393-2","text":"Yaqing Wang 0002"},{"@pid":"361/7522","text":"Zaifei Yang"},{"@pid":"158/1014","text":"Quanming Yao"}]},"title":"Accurate and interpretable drug-drug interaction prediction enabled by knowledge subgraph learning.","venue":"CoRR","volume":"abs/2311.15056","year":"2023","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2311-15056","doi":"10.48550/ARXIV.2311.15056","ee":"https://doi.org/10.48550/arXiv.2311.15056","url":"https://dblp.org/rec/journals/corr/abs-2311-15056"},
+"url":"URL#1488766"
+},
+{
+"@score":"5",
+"@id":"1531198",
+"info":{"authors":{"author":[{"@pid":"299/0324","text":"Zhong-Hao Ren"},{"@pid":"35/8343","text":"Zhu-Hong You"},{"@pid":"142/2116","text":"Changqing Yu"},{"@pid":"54/6850-3","text":"Li-Ping Li 0003"},{"@pid":"299/5204","text":"Yongjian Guan"},{"@pid":"330/1397","text":"Lu-Xiang Guo"},{"@pid":"41/1122-7","text":"Jie Pan 0007"}]},"title":"A biomedical knowledge graph-based method for drug-drug interactions prediction through combining local and global features with deep neural networks.","venue":"Briefings Bioinform.","volume":"23","number":"5","year":"2022","type":"Journal Articles","access":"closed","key":"journals/bib/RenYYLGGP22","doi":"10.1093/BIB/BBAC363","ee":"https://doi.org/10.1093/bib/bbac363","url":"https://dblp.org/rec/journals/bib/RenYYLGGP22"},
+"url":"URL#1531198"
+},
+{
+"@score":"5",
+"@id":"1531268",
+"info":{"authors":{"author":[{"@pid":"276/8163-1","text":"Xiao-Rui Su 0001"},{"@pid":"163/5983","text":"Lun Hu"},{"@pid":"35/8343","text":"Zhuhong You"},{"@pid":"190/4803-1","text":"Pengwei Hu 0001"},{"@pid":"276/7969","text":"Bo-Wei Zhao"}]},"title":"Attention-based Knowledge Graph Representation Learning for Predicting Drug-drug Interactions.","venue":"Briefings Bioinform.","volume":"23","number":"3","year":"2022","type":"Journal Articles","access":"closed","key":"journals/bib/SuHYHZ22","doi":"10.1093/BIB/BBAC140","ee":"https://doi.org/10.1093/bib/bbac140","url":"https://dblp.org/rec/journals/bib/SuHYHZ22"},
+"url":"URL#1531268"
+},
+{
+"@score":"5",
+"@id":"1743785",
+"info":{"authors":{"author":[{"@pid":"69/870","text":"Wei Du"},{"@pid":"168/6304","text":"Yijia Zhang 0001"},{"@pid":"98/2604","text":"Ming Yang"},{"@pid":"86/3406","text":"Da Liu"},{"@pid":"37/8541","text":"Xiaoxia Liu"}]},"title":"KGSG: Knowledge Guided Syntactic Graph Model for Drug-Drug Interaction Extraction.","venue":"CCKS","pages":"55-67","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/ccks/DuZYLL22","doi":"10.1007/978-981-19-7596-7_5","ee":"https://doi.org/10.1007/978-981-19-7596-7_5","url":"https://dblp.org/rec/conf/ccks/DuZYLL22"},
+"url":"URL#1743785"
+},
+{
+"@score":"5",
+"@id":"1749257",
+"info":{"authors":{"author":[{"@pid":"68/3340","text":"Xin Jin"},{"@pid":"71/2310","text":"Xia Sun"},{"@pid":"69/10696","text":"Jiacheng Chen"},{"@pid":"50/6477","text":"Richard F. E. Sutcliffe"}]},"title":"Extracting Drug-drug Interactions from Biomedical Texts using Knowledge Graph Embeddings and Multi-focal Loss.","venue":"CIKM","pages":"884-893","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/cikm/JinSCS22","doi":"10.1145/3511808.3557318","ee":"https://doi.org/10.1145/3511808.3557318","url":"https://dblp.org/rec/conf/cikm/JinSCS22"},
+"url":"URL#1749257"
+},
+{
+"@score":"5",
+"@id":"1806329",
+"info":{"authors":{"author":[{"@pid":"82/1506","text":"Shanwen Zhang"},{"@pid":"142/2116","text":"Changqing Yu"},{"@pid":"47/4804","text":"Cong Xu"}]},"title":"Integrating Knowledge Graph and Bi-LSTM for Drug-Drug Interaction Predication.","venue":"ICIC","pages":"763-771","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/ZhangYX22","doi":"10.1007/978-3-031-13870-6_62","ee":"https://doi.org/10.1007/978-3-031-13870-6_62","url":"https://dblp.org/rec/conf/icic/ZhangYX22"},
+"url":"URL#1806329"
+},
+{
+"@score":"5",
+"@id":"2020234",
+"info":{"authors":{"author":[{"@pid":"231/0912","text":"Yuanfei Dai"},{"@pid":"234/4626","text":"Chenhao Guo"},{"@pid":"10/2272","text":"Wenzhong Guo"},{"@pid":"42/8700","text":"Carsten Eickhoff"}]},"title":"Drug-drug interaction prediction with Wasserstein Adversarial Autoencoder-based knowledge graph embeddings.","venue":"Briefings Bioinform.","volume":"22","number":"4","year":"2021","type":"Journal Articles","access":"closed","key":"journals/bib/DaiGGE21","doi":"10.1093/BIB/BBAA256","ee":"https://doi.org/10.1093/bib/bbaa256","url":"https://dblp.org/rec/journals/bib/DaiGGE21"},
+"url":"URL#2020234"
+},
+{
+"@score":"5",
+"@id":"2280591",
+"info":{"authors":{"author":[{"@pid":"276/8163-1","text":"Xiao-Rui Su 0001"},{"@pid":"35/8343","text":"Zhu-Hong You"},{"@pid":"245/8184","text":"Hai-Cheng Yi"},{"@pid":"276/7969","text":"Bo-Wei Zhao"}]},"title":"Detection of Drug-Drug Interactions Through Knowledge Graph Integrating Multi-attention with Capsule Network.","venue":"ICIC","pages":"423-432","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/SuYYZ21","doi":"10.1007/978-3-030-84532-2_38","ee":"https://doi.org/10.1007/978-3-030-84532-2_38","url":"https://dblp.org/rec/conf/icic/SuYYZ21"},
+"url":"URL#2280591"
+},
+{
+"@score":"5",
+"@id":"2322706",
+"info":{"authors":{"author":[{"@pid":"219/6304","text":"Ariam Rivas"},{"@pid":"92/654","text":"Maria-Esther Vidal"}]},"title":"Capturing Knowledge about Drug-Drug Interactions to Enhance Treatment Effectiveness.","venue":"K-CAP","pages":"33-40","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/kcap/RivasV21","doi":"10.1145/3460210.3493560","ee":"https://doi.org/10.1145/3460210.3493560","url":"https://dblp.org/rec/conf/kcap/RivasV21"},
+"url":"URL#2322706"
+},
+{
+"@score":"5",
+"@id":"2329687",
+"info":{"authors":{"author":[{"@pid":"46/2505","text":"George Despotou"},{"@pid":"71/4539","text":"Theodoros N. Arvanitis"}]},"title":"An Electronic Health Record Approach to Understanding Drug to Drug Interactions and Associated Knowledge Gaps in Intergrated Care of Multimorbidity.","venue":"MIE","pages":"580-584","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/mie/DespotouA21","doi":"10.3233/SHTI210237","ee":"https://doi.org/10.3233/SHTI210237","url":"https://dblp.org/rec/conf/mie/DespotouA21"},
+"url":"URL#2329687"
+},
+{
+"@score":"5",
+"@id":"2654818",
+"info":{"authors":{"author":[{"@pid":"179/6511","text":"Konstantinos Bougiatiotis"},{"@pid":"06/8385","text":"Fotis Aisopos"},{"@pid":"204/7237","text":"Anastasios Nentidis"},{"@pid":"32/6354","text":"Anastasia Krithara"},{"@pid":"55/2039","text":"Georgios Paliouras"}]},"title":"Drug-Drug Interaction Prediction on a Biomedical Literature Knowledge Graph.","venue":"AIME","pages":"122-132","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/aime/BougiatiotisANK20","doi":"10.1007/978-3-030-59137-3_12","ee":"https://doi.org/10.1007/978-3-030-59137-3_12","url":"https://dblp.org/rec/conf/aime/BougiatiotisANK20"},
+"url":"URL#2654818"
+},
+{
+"@score":"5",
+"@id":"2751146",
+"info":{"authors":{"author":[{"@pid":"14/6103","text":"Xuan Lin"},{"@pid":"37/8296","text":"Zhe Quan"},{"@pid":"26/11197","text":"Zhi-Jie Wang 0009"},{"@pid":"94/9023-2","text":"Tengfei Ma 0002"},{"@pid":"20/3839","text":"Xiangxiang Zeng"}]},"title":"KGNN: Knowledge Graph Neural Network for Drug-Drug Interaction Prediction.","venue":"IJCAI","pages":"2739-2745","year":"2020","type":"Conference and Workshop Papers","access":"open","key":"conf/ijcai/LinQWMZ20","doi":"10.24963/IJCAI.2020/380","ee":"https://doi.org/10.24963/ijcai.2020/380","url":"https://dblp.org/rec/conf/ijcai/LinQWMZ20"},
+"url":"URL#2751146"
+},
+{
+"@score":"5",
+"@id":"2841656",
+"info":{"authors":{"author":[{"@pid":"231/0912","text":"Yuanfei Dai"},{"@pid":"234/4626","text":"Chenhao Guo"},{"@pid":"10/2272","text":"Wenzhong Guo"},{"@pid":"42/8700","text":"Carsten Eickhoff"}]},"title":"Wasserstein Adversarial Autoencoders for Knowledge Graph Embedding based Drug-Drug Interaction Prediction.","venue":"CoRR","volume":"abs/2004.07341","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2004-07341","ee":"https://arxiv.org/abs/2004.07341","url":"https://dblp.org/rec/journals/corr/abs-2004-07341"},
+"url":"URL#2841656"
+},
+{
+"@score":"5",
+"@id":"2892927",
+"info":{"authors":{"author":{"@pid":"255/8493","text":"Ishani Mondal"}},"title":"Towards Incorporating Entity-specific Knowledge Graph Information in Predicting Drug-Drug Interactions.","venue":"CoRR","volume":"abs/2012.11142","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2012-11142","ee":"https://arxiv.org/abs/2012.11142","url":"https://dblp.org/rec/journals/corr/abs-2012-11142"},
+"url":"URL#2892927"
+},
+{
+"@score":"4",
+"@id":"6659",
+"info":{"authors":{"author":[{"@pid":"404/3835","text":"A. Sankaran"},{"@pid":"09/7966","text":"K. Sathiyamurthy"}]},"title":"Quantum LLM Model for Entity and Semantic Relation Extraction in Drug Interactions.","venue":"Adv. Artif. Intell. Mach. Learn.","volume":"5","number":"1","pages":"3495-3518","year":"2025","type":"Journal Articles","access":"open","key":"journals/aaiml/SankaranS25","doi":"10.54364/AAIML.2025.51200","ee":"https://doi.org/10.54364/aaiml.2025.51200","url":"https://dblp.org/rec/journals/aaiml/SankaranS25"},
+"url":"URL#6659"
+},
+{
+"@score":"4",
+"@id":"62649",
+"info":{"authors":{"author":[{"@pid":"72/2299","text":"Juno Lee"},{"@pid":"14/4000","text":"So Young Sohn"}]},"title":"Selection of partner organization for drug discovery considering protein interaction via knowledge graph and collaborative filtering: Case of lung cancer.","venue":"Expert Syst. Appl.","volume":"287","pages":"127983","year":"2025","type":"Journal Articles","access":"closed","key":"journals/eswa/LeeS25","doi":"10.1016/J.ESWA.2025.127983","ee":"https://doi.org/10.1016/j.eswa.2025.127983","url":"https://dblp.org/rec/journals/eswa/LeeS25"},
+"url":"URL#62649"
+},
+{
+"@score":"4",
+"@id":"167831",
+"info":{"authors":{"author":[{"@pid":"146/9312","text":"Sisi Yuan"},{"@pid":"356/8745","text":"Zhecheng Zhou"},{"@pid":"239/8998","text":"Xinyuan Jin"},{"@pid":"243/4152","text":"Linlin Zhuo"},{"@pid":"l/KeqinLi","text":"Keqin Li 0001"}]},"title":"Enhancing Herbal Medicine-Drug Interaction Prediction Using Large Language Models.","venue":"IEEE J. Biomed. Health Informatics","volume":"29","number":"10","pages":"6971-6981","year":"2025","type":"Journal Articles","access":"closed","key":"journals/titb/YuanZJZL25","doi":"10.1109/JBHI.2025.3558667","ee":"https://doi.org/10.1109/JBHI.2025.3558667","url":"https://dblp.org/rec/journals/titb/YuanZJZL25"},
+"url":"URL#167831"
+},
+{
+"@score":"4",
+"@id":"427637",
+"info":{"authors":{"author":[{"@pid":"56/7726","text":"Chengcheng Zhang"},{"@pid":"00/6500","text":"Tianyi Zang"},{"@pid":"143/8389","text":"Tianyi Zhao"}]},"title":"KGE-UNIT: toward the unification of molecular interactions prediction based on knowledge graph and multi-task learning on drug discovery.","venue":"Briefings Bioinform.","volume":"25","number":"2","year":"2024","type":"Journal Articles","access":"closed","key":"journals/bib/ZhangZZ24","doi":"10.1093/BIB/BBAE043","ee":"https://doi.org/10.1093/bib/bbae043","url":"https://dblp.org/rec/journals/bib/ZhangZZ24"},
+"url":"URL#427637"
+},
+{
+"@score":"4",
+"@id":"428299",
+"info":{"authors":{"author":[{"@pid":"219/7194","text":"Rabia Azzi"},{"@pid":"76/8007","text":"Georgeta Bordea"},{"@pid":"252/2792","text":"Romain Griffier"},{"@pid":"207/2415","text":"Jean Noël Nikiema"},{"@pid":"90/4936","text":"Fleur Mougin"}]},"title":"Enriching the FIDEO ontology with food-drug interactions from online knowledge sources.","venue":"J. Biomed. Semant.","volume":"15","number":"1","pages":"1","year":"2024","type":"Journal Articles","access":"open","key":"journals/biomedsem/AzziBGNM24","doi":"10.1186/S13326-024-00302-5","ee":"https://doi.org/10.1186/s13326-024-00302-5","url":"https://dblp.org/rec/journals/biomedsem/AzziBGNM24"},
+"url":"URL#428299"
+},
+{
+"@score":"4",
+"@id":"428792",
+"info":{"authors":{"author":[{"@pid":"51/11041","text":"Warith Eddine Djeddi"},{"@pid":"365/0353","text":"Khalil Hermi"},{"@pid":"20/6407","text":"Sadok Ben Yahia"},{"@pid":"27/2487","text":"Gayo Diallo"}]},"title":"Correction: Advancing drug-target interaction prediction: a comprehensive graph-based approach integrating knowledge graph embedding and ProtBert pretraining.","venue":"BMC Bioinform.","volume":"25","number":"1","pages":"289","year":"2024","type":"Journal Articles","access":"open","key":"journals/bmcbi/DjeddiHYD24","doi":"10.1186/S12859-024-05905-4","ee":"https://doi.org/10.1186/s12859-024-05905-4","url":"https://dblp.org/rec/journals/bmcbi/DjeddiHYD24"},
+"url":"URL#428792"
+},
+{
+"@score":"4",
+"@id":"434308",
+"info":{"authors":{"author":[{"@pid":"78/3222","text":"Xiaoqing Cheng"},{"@pid":"283/5162","text":"Xixin Yang"},{"@pid":"353/9224","text":"Yuanlin Guan"},{"@pid":"384/1667","text":"Yihan Feng"}]},"title":"ERT-GFAN: A multimodal drug-target interaction prediction model based on molecular biology and knowledge-enhanced attention mechanism.","venue":"Comput. Biol. Medicine","volume":"180","pages":"109012","year":"2024","type":"Journal Articles","access":"closed","key":"journals/cbm/ChengYGF24","doi":"10.1016/J.COMPBIOMED.2024.109012","ee":"https://doi.org/10.1016/j.compbiomed.2024.109012","url":"https://dblp.org/rec/journals/cbm/ChengYGF24"},
+"url":"URL#434308"
+},
+{
+"@score":"4",
+"@id":"643108",
+"info":{"authors":{"author":[{"@pid":"253/5088","text":"Amit Ranjan"},{"@pid":"312/0505","text":"Adam Bess"},{"@pid":"326/0155","text":"Md Saiful Islam Sajol"},{"@pid":"379/3277","text":"Magesh Rajasekaran"},{"@pid":"149/1259","text":"Chris Alvin"},{"@pid":"15/3402","text":"Supratik Mukhopadhyay"}]},"title":"KG-DTA: A knowledge graph-based meta-path learning framework to predict drug-target binding affinity.","venue":"AIMLSystems","pages":"12:1-12:9","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/aiml2/RanjanBSRAM24","doi":"10.1145/3703412.3703426","ee":"https://doi.org/10.1145/3703412.3703426","url":"https://dblp.org/rec/conf/aiml2/RanjanBSRAM24"},
+"url":"URL#643108"
+},
+{
+"@score":"4",
+"@id":"652185",
+"info":{"authors":{"author":[{"@pid":"396/4207","text":"Zhongwei An"},{"@pid":"360/6220","text":"Jiajie Xing"},{"@pid":"70/7626","text":"Xianguo Zhang"}]},"title":"A Disease-Drug Interaction Prediction Framework Based on Knowledge Graph and Graph Contrastive Learning for Recommendation System.","venue":"BIBM","pages":"6260-6267","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/bibm/AnXZ24","doi":"10.1109/BIBM62325.2024.10822071","ee":"https://doi.org/10.1109/BIBM62325.2024.10822071","url":"https://dblp.org/rec/conf/bibm/AnXZ24"},
+"url":"URL#652185"
+},
+{
+"@score":"4",
+"@id":"652953",
+"info":{"authors":{"author":[{"@pid":"07/2985","text":"Xu Tian"},{"@pid":"318/0770","text":"Peifu Han"},{"@pid":"181/2710-19","text":"Xue Li 0019"},{"@pid":"362/2992","text":"Hongzhen Ding"},{"@pid":"20/6417","text":"Wei He"},{"@pid":"296/0537","text":"Fengrui Jing"},{"@pid":"86/220","text":"Shuang Wang"},{"@pid":"82/1331-10","text":"Xun Wang 0010"},{"@pid":"30/982-1","text":"Tao Song 0001"}]},"title":"KGM4DTI: A Depression Knowledge Graph-Driven Multi-semantic Multi-view Computational Framework for Drug-Target Interaction Prediction.","venue":"BIBM","pages":"369-376","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/bibm/TianHLDHJWW024","doi":"10.1109/BIBM62325.2024.10822766","ee":"https://doi.org/10.1109/BIBM62325.2024.10822766","url":"https://dblp.org/rec/conf/bibm/TianHLDHJWW024"},
+"url":"URL#652953"
+},
+{
+"@score":"4",
+"@id":"721938",
+"info":{"authors":{"author":[{"@pid":"407/0947","text":"Mariam Gamal Elfiky"},{"@pid":"407/0492","text":"Samy Ghoniemy"},{"@pid":"148/2743","text":"Ahmed Sharaf Eldin"}]},"title":"Predict of the Hidden Drug Interactions Based on Similarity Utilizing the Knowledge Graph.","venue":"ICCA","pages":"1-6","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icca3/ElfikyGE24","doi":"10.1109/ICCA62237.2024.10927967","ee":"https://doi.org/10.1109/ICCA62237.2024.10927967","url":"https://dblp.org/rec/conf/icca3/ElfikyGE24"},
+"url":"URL#721938"
+},
+{
+"@score":"4",
+"@id":"725279",
+"info":{"authors":{"author":[{"@pid":"369/8801","text":"Essmily Simon"},{"@pid":"276/9583","text":"Sanjay S. Bankapur"}]},"title":"Leveraging Pre-Trained Text-To-Text Transfer Transformer Language Model for Accurate Prediction of Drug-Target Interactions.","venue":"ICCCNT","pages":"1-6","year":"2024","type":"Conference and Workshop Papers","access":"closed","key":"conf/icccnt/SimonB24","doi":"10.1109/ICCCNT61001.2024.10724551","ee":"https://doi.org/10.1109/ICCCNT61001.2024.10724551","url":"https://dblp.org/rec/conf/icccnt/SimonB24"},
+"url":"URL#725279"
+},
+{
+"@score":"4",
+"@id":"1001463",
+"info":{"authors":{"author":[{"@pid":"90/5687","text":"Guodong Li"},{"@pid":"161/6221","text":"Weicheng Sun"},{"@pid":"67/894","text":"Jinsheng Xu"},{"@pid":"163/5983","text":"Lun Hu"},{"@pid":"73/8074","text":"Weihan Zhang"},{"@pid":"13/4682-27","text":"Ping Zhang 0027"}]},"title":"GA-ENs: A novel drug-target interactions prediction method by incorporating prior Knowledge Graph into dual Wasserstein Generative Adversarial Network with gradient penalty.","venue":"Appl. Soft Comput.","volume":"139","pages":"110151","year":"2023","type":"Journal Articles","access":"closed","key":"journals/asc/LiSXHZZ23","doi":"10.1016/J.ASOC.2023.110151","ee":"https://doi.org/10.1016/j.asoc.2023.110151","url":"https://dblp.org/rec/journals/asc/LiSXHZZ23"},
+"url":"URL#1001463"
+},
+{
+"@score":"4",
+"@id":"1006420",
+"info":{"authors":{"author":[{"@pid":"06/8385","text":"Fotis Aisopos"},{"@pid":"55/2039","text":"Georgios Paliouras"}]},"title":"Comparing methods for drug-gene interaction prediction on the biomedical literature knowledge graph: performance versus explainability.","venue":"BMC Bioinform.","volume":"24","number":"1","pages":"272","year":"2023","type":"Journal Articles","access":"open","key":"journals/bmcbi/AisoposP23","doi":"10.1186/S12859-023-05373-2","ee":"https://doi.org/10.1186/s12859-023-05373-2","url":"https://dblp.org/rec/journals/bmcbi/AisoposP23"},
+"url":"URL#1006420"
+},
+{
+"@score":"4",
+"@id":"1006515",
+"info":{"authors":{"author":[{"@pid":"51/11041","text":"Warith Eddine Djeddi"},{"@pid":"365/0353","text":"Khalil Hermi"},{"@pid":"20/6407","text":"Sadok Ben Yahia"},{"@pid":"27/2487","text":"Gayo Diallo"}]},"title":"Advancing drug-target interaction prediction: a comprehensive graph-based approach integrating knowledge graph embedding and ProtBert pretraining.","venue":"BMC Bioinform.","volume":"24","number":"1","pages":"488","year":"2023","type":"Journal Articles","access":"open","key":"journals/bmcbi/DjeddiHYD23","doi":"10.1186/S12859-023-05593-6","ee":"https://doi.org/10.1186/s12859-023-05593-6","url":"https://dblp.org/rec/journals/bmcbi/DjeddiHYD23"},
+"url":"URL#1006515"
+},
+{
+"@score":"4",
+"@id":"1078174",
+"info":{"authors":{"author":[{"@pid":"239/7176","text":"Sanya Bathla Taneja"},{"@pid":"170/8885","text":"Tiffany J. Callahan"},{"@pid":"212/7979","text":"Mary F. Paine"},{"@pid":"39/9867","text":"Sandra L. Kane-Gill"},{"@pid":"93/4252","text":"Halil Kilicoglu"},{"@pid":"30/5201","text":"Marcin P. Joachimiak"},{"@pid":"92/4972","text":"Richard D. Boyce"}]},"title":"Developing a Knowledge Graph for Pharmacokinetic Natural Product-Drug Interactions.","venue":"J. Biomed. Informatics","volume":"140","pages":"104341","year":"2023","type":"Journal Articles","access":"open","key":"journals/jbi/TanejaCPKKJB23","doi":"10.1016/J.JBI.2023.104341","ee":"https://doi.org/10.1016/j.jbi.2023.104341","url":"https://dblp.org/rec/journals/jbi/TanejaCPKKJB23"},
+"url":"URL#1078174"
+},
+{
+"@score":"4",
+"@id":"1291636",
+"info":{"authors":{"author":{"@pid":"288/1140","text":"Zhongyu He"}},"title":"Drug-Target Interaction Prediction Based on Knowledge Graph and Convolutional Neural Network Integrated with CBAM Module.","venue":"ICIC","pages":"653-665","year":"2023","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/He23","doi":"10.1007/978-981-99-4749-2_56","ee":"https://doi.org/10.1007/978-981-99-4749-2_56","url":"https://dblp.org/rec/conf/icic/He23"},
+"url":"URL#1291636"
+},
+{
+"@score":"4",
+"@id":"1291861",
+"info":{"authors":{"author":[{"@pid":"56/5142","text":"Yiwen Zhang"},{"@pid":"272/5705","text":"Mengqi Cheng"}]},"title":"Drug-Target Interaction Prediction Based on Knowledge Graph Embedding and BiLSTM Networks.","venue":"ICIC","pages":"803-813","year":"2023","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/ZhangC23","doi":"10.1007/978-981-99-4749-2_68","ee":"https://doi.org/10.1007/978-981-99-4749-2_68","url":"https://dblp.org/rec/conf/icic/ZhangC23"},
+"url":"URL#1291861"
+},
+{
+"@score":"4",
+"@id":"1473290",
+"info":{"authors":{"author":[{"@pid":"254/0883","text":"Rakesh Bal"},{"@pid":"238/7281","text":"Yijia Xiao"},{"@pid":"w/WeiWang","text":"Wei Wang 0010"}]},"title":"PGraphDTA: Improving Drug Target Interaction Prediction using Protein Language Models and Contact Maps.","venue":"CoRR","volume":"abs/2310.04017","year":"2023","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2310-04017","doi":"10.48550/ARXIV.2310.04017","ee":"https://doi.org/10.48550/arXiv.2310.04017","url":"https://dblp.org/rec/journals/corr/abs-2310-04017"},
+"url":"URL#1473290"
+},
+{
+"@score":"4",
+"@id":"1531150",
+"info":{"authors":{"author":[{"@pid":"275/2936","text":"Tri Minh Nguyen 0005"},{"@pid":"77/8172","text":"Thin Nguyen"},{"@pid":"55/2269","text":"Truyen Tran 0001"}]},"title":"Mitigating cold-start problems in drug-target affinity prediction with interaction knowledge transferring.","venue":"Briefings Bioinform.","volume":"23","number":"4","year":"2022","type":"Journal Articles","access":"closed","key":"journals/bib/NguyenNT22","doi":"10.1093/BIB/BBAC269","ee":"https://doi.org/10.1093/bib/bbac269","url":"https://dblp.org/rec/journals/bib/NguyenNT22"},
+"url":"URL#1531150"
+},
+{
+"@score":"4",
+"@id":"1532161",
+"info":{"authors":{"author":[{"@pid":"190/7496","text":"Yutai Hou"},{"@pid":"144/7737","text":"Yingce Xia"},{"@pid":"68/1284-3","text":"Lijun Wu 0003"},{"@pid":"163/2704-3","text":"Shufang Xie 0003"},{"@pid":"81/5991","text":"Yang Fan"},{"@pid":"18/1965-1","text":"Jinhua Zhu 0001"},{"@pid":"14/6841-1","text":"Tao Qin 0001"},{"@pid":"l/TieYanLiu","text":"Tie-Yan Liu"}]},"title":"Discovering drug-target interaction knowledge from biomedical literature.","venue":"Bioinform.","volume":"38","number":"22","pages":"5100-5107","year":"2022","type":"Journal Articles","access":"closed","key":"journals/bioinformatics/HouXWXFZQL22","doi":"10.1093/BIOINFORMATICS/BTAC648","ee":"https://doi.org/10.1093/bioinformatics/btac648","url":"https://dblp.org/rec/journals/bioinformatics/HouXWXFZQL22"},
+"url":"URL#1532161"
+},
+{
+"@score":"4",
+"@id":"1533741",
+"info":{"authors":{"author":[{"@pid":"19/7240","text":"Junjun Zhang"},{"@pid":"91/4852","text":"Minzhu Xie"}]},"title":"Graph regularized non-negative matrix factorization with prior knowledge consistency constraint for drug-target interactions prediction.","venue":"BMC Bioinform.","volume":"23","number":"1","pages":"564","year":"2022","type":"Journal Articles","access":"open","key":"journals/bmcbi/ZhangX22","doi":"10.1186/S12859-022-05119-6","ee":"https://doi.org/10.1186/s12859-022-05119-6","url":"https://dblp.org/rec/journals/bmcbi/ZhangX22"},
+"url":"URL#1533741"
+},
+{
+"@score":"4",
+"@id":"1683948",
+"info":{"authors":{"author":[{"@pid":"01/8558-1","text":"Ying Shen 0001"},{"@pid":"17/7450","text":"Yilin Zhang"},{"@pid":"195/3827","text":"Kaiqi Yuan"},{"@pid":"63/5667","text":"Dagang Li 0001"},{"@pid":"20/134-2","text":"Hai-Tao Zheng 0002"}]},"title":"A Knowledge-Enhanced Multi-View Framework for Drug-Target Interaction Prediction.","venue":"IEEE Trans. Big Data","volume":"8","number":"5","pages":"1387-1398","year":"2022","type":"Journal Articles","access":"closed","key":"journals/tbd/ShenZYLZ22","doi":"10.1109/TBDATA.2021.3051673","ee":"https://doi.org/10.1109/TBDATA.2021.3051673","url":"https://dblp.org/rec/journals/tbd/ShenZYLZ22"},
+"url":"URL#1683948"
+},
+{
+"@score":"4",
+"@id":"1806282",
+"info":{"authors":{"author":[{"@pid":"234/4965","text":"Zhenghao Wu"},{"@pid":"64/2433-2","text":"Xiaolong Zhang 0002"},{"@pid":"88/3623","text":"Xiaoli Lin"}]},"title":"KGAT: Predicting Drug-Target Interaction Based on Knowledge Graph Attention Network.","venue":"ICIC","pages":"438-450","year":"2022","type":"Conference and Workshop Papers","access":"closed","key":"conf/icic/WuZL22","doi":"10.1007/978-3-031-13829-4_38","ee":"https://doi.org/10.1007/978-3-031-13829-4_38","url":"https://dblp.org/rec/conf/icic/WuZL22"},
+"url":"URL#1806282"
+},
+{
+"@score":"4",
+"@id":"1911775",
+"info":{"authors":{"author":[{"@pid":"275/2936","text":"Tri Minh Nguyen 0005"},{"@pid":"77/8172","text":"Thin Nguyen"},{"@pid":"55/2269","text":"Truyen Tran 0001"}]},"title":"Mitigating cold start problems in drug-target affinity prediction with interaction knowledge transferring.","venue":"CoRR","volume":"abs/2202.01195","year":"2022","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2202-01195","ee":"https://arxiv.org/abs/2202.01195","url":"https://dblp.org/rec/journals/corr/abs-2202-01195"},
+"url":"URL#1911775"
+},
+{
+"@score":"4",
+"@id":"1963262",
+"info":{"authors":{"author":[{"@pid":"239/7176","text":"Sanya Bathla Taneja"},{"@pid":"170/8885","text":"Tiffany J. Callahan"},{"@pid":"212/7979","text":"Mary F. Paine"},{"@pid":"39/9867","text":"Sandra L. Kane-Gill"},{"@pid":"93/4252","text":"Halil Kilicoglu"},{"@pid":"30/5201","text":"Marcin P. Joachimiak"},{"@pid":"92/4972","text":"Richard D. Boyce"}]},"title":"Developing a Knowledge Graph Framework for Pharmacokinetic Natural Product-Drug Interactions.","venue":"CoRR","volume":"abs/2209.11950","year":"2022","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2209-11950","doi":"10.48550/ARXIV.2209.11950","ee":"https://doi.org/10.48550/arXiv.2209.11950","url":"https://dblp.org/rec/journals/corr/abs-2209-11950"},
+"url":"URL#1963262"
+},
+{
+"@score":"4",
+"@id":"2022203",
+"info":{"authors":{"author":[{"@pid":"55/2008-1","text":"Yue Yu 0001"},{"@pid":"227/2808","text":"Kexin Huang"},{"@pid":"94/3019-14","text":"Chao Zhang 0014"},{"@pid":"244/2314","text":"Lucas M. Glass"},{"@pid":"54/4948","text":"Jimeng Sun 0001"},{"@pid":"170/1833","text":"Cao Xiao"}]},"title":"SumGNN: multi-typed drug interaction prediction via efficient knowledge graph summarization.","venue":"Bioinform.","volume":"37","number":"18","pages":"2988-2995","year":"2021","type":"Journal Articles","access":"open","key":"journals/bioinformatics/YuHZGSX21","doi":"10.1093/BIOINFORMATICS/BTAB207","ee":"https://doi.org/10.1093/bioinformatics/btab207","url":"https://dblp.org/rec/journals/bioinformatics/YuHZGSX21"},
+"url":"URL#2022203"
+},
+{
+"@score":"4",
+"@id":"2178351",
+"info":{"authors":{"author":[{"@pid":"89/6935-4","text":"Zhiheng Li 0004"},{"@pid":"81/2359","text":"Zhihao Yang"},{"@pid":"w/LeiWang85","text":"Lei Wang 0085"},{"@pid":"91/3045-9","text":"Yin Zhang 0009"},{"@pid":"07/1644","text":"Hongfei Lin"},{"@pid":"39/449-21","text":"Jian Wang 0021"}]},"title":"Lexicon Knowledge Boosted Interaction Graph Network for Adverse Drug Reaction Recognition From Social Media.","venue":"IEEE J. Biomed. Health Informatics","volume":"25","number":"7","pages":"2777-2786","year":"2021","type":"Journal Articles","access":"closed","key":"journals/titb/LiYWZLW21","doi":"10.1109/JBHI.2020.3042549","ee":"https://doi.org/10.1109/JBHI.2020.3042549","url":"https://dblp.org/rec/journals/titb/LiYWZLW21"},
+"url":"URL#2178351"
+},
+{
+"@score":"4",
+"@id":"2414414",
+"info":{"authors":{"author":[{"@pid":"276/6557","text":"Dalton Schutte"},{"@pid":"234/3695","text":"Jake Vasilakes"},{"@pid":"252/3049","text":"Anusha Bompelli"},{"@pid":"177/6742","text":"Yuqi Zhou"},{"@pid":"01/2690","text":"Marcelo Fiszman"},{"@pid":"31/4114-1","text":"Hua Xu 0001"},{"@pid":"93/4252","text":"Halil Kilicoglu"},{"@pid":"261/5734","text":"Jeffrey R. Bishop"},{"@pid":"52/9204","text":"Terrence Adam"},{"@pid":"60/2536-28","text":"Rui Zhang 0028"}]},"title":"Discovering novel drug-supplement interactions using a dietary supplements knowledge graph generated from the biomedical literature.","venue":"CoRR","volume":"abs/2106.12741","year":"2021","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2106-12741","ee":"https://arxiv.org/abs/2106.12741","url":"https://dblp.org/rec/journals/corr/abs-2106-12741"},
+"url":"URL#2414414"
+},
+{
+"@score":"4",
+"@id":"2433393",
+"info":{"authors":{"author":[{"@pid":"190/7496","text":"Yutai Hou"},{"@pid":"144/7737","text":"Yingce Xia"},{"@pid":"68/1284-3","text":"Lijun Wu 0003"},{"@pid":"163/2704-3","text":"Shufang Xie 0003"},{"@pid":"81/5991","text":"Yang Fan"},{"@pid":"18/1965-1","text":"Jinhua Zhu 0001"},{"@pid":"98/4640","text":"Wanxiang Che"},{"@pid":"14/6841-1","text":"Tao Qin 0001"},{"@pid":"l/TieYanLiu","text":"Tie-Yan Liu"}]},"title":"Discovering Drug-Target Interaction Knowledge from Biomedical Literature.","venue":"CoRR","volume":"abs/2109.13187","year":"2021","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2109-13187","ee":"https://arxiv.org/abs/2109.13187","url":"https://dblp.org/rec/journals/corr/abs-2109-13187"},
+"url":"URL#2433393"
+},
+{
+"@score":"4",
+"@id":"2875457",
+"info":{"authors":{"author":[{"@pid":"55/2008-1","text":"Yue Yu 0001"},{"@pid":"227/2808","text":"Kexin Huang"},{"@pid":"94/3019-14","text":"Chao Zhang 0014"},{"@pid":"244/2314","text":"Lucas M. Glass"},{"@pid":"54/4948","text":"Jimeng Sun 0001"},{"@pid":"170/1833","text":"Cao Xiao"}]},"title":"SumGNN: Multi-typed Drug Interaction Prediction via Efficient Knowledge Graph Summarization.","venue":"CoRR","volume":"abs/2010.01450","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2010-01450","ee":"https://arxiv.org/abs/2010.01450","url":"https://dblp.org/rec/journals/corr/abs-2010-01450"},
+"url":"URL#2875457"
+}
+]
+}
+}
+}
